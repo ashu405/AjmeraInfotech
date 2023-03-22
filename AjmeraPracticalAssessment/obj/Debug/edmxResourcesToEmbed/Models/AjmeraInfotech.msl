@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AjmeraInfotechDBModelStoreContainer" CdmEntityContainer="AjmeraInfotechDBEntities">
+    <EntitySetMapping Name="tblBookMasters">
+      <EntityTypeMapping TypeName="AjmeraInfotechDBModel.tblBookMaster">
+        <MappingFragment StoreEntitySet="tblBookMaster">
+          <ScalarProperty Name="BookID" ColumnName="BookID" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
